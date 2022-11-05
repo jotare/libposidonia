@@ -1,0 +1,4 @@
+[submodule "libds"]
+	path = lib/libds
+	url = git@github.com:jotare/libds.git
+	branch = master
