@@ -32,6 +32,8 @@ libposidonia.a: libds libposidonia.a($(source_objects))
 
 
 # lib dependencies
+deps: libds
+
 libds:
 	make -C lib/libds/ lib
 
