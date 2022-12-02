@@ -28,7 +28,7 @@ all: lib tests
 
 # sources
 lib: libposidonia.a
-libposidonia.a: libds libposidonia.a($(source_objects))
+libposidonia.a: libposidonia.a($(source_objects))
 
 
 # lib dependencies
